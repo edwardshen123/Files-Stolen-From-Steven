@@ -1,0 +1,6 @@
+console.log("HELLO")
+
+var chartData = [20,10,60,80,50];
+
+var chat = d3.select("#chart");
+chat.selectAll("div");

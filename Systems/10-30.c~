@@ -1,0 +1,6 @@
+int main() {
+  int x = 5;
+  int y = -1;
+  char[] s = "The point (x, y) is: (%d, %d)",x,y;
+  printf("%s",s);
+}

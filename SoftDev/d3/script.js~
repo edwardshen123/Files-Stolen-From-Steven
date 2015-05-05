@@ -1,0 +1,5 @@
+console.log("HELLO")
+var thediv = d3.select("thediv")
+var ollistitems = d3.select("ol").selectAll("li")
+
+thediv.style("font-size", "30px");

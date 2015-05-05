@@ -1,0 +1,11 @@
+#include <unistd.h>
+
+int main() {
+  int status;
+  int f = fork();
+  if (f) {
+    // Parent instructions
+  } else {
+    // Child instructions
+  }
+}
